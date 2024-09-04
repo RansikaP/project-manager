@@ -1,6 +1,7 @@
 <h1>Project Manager</h1>
 
 <b> [Demo](https://task-manager-frontend-p5c4.onrender.com/login) </b>
+<b> Demo User: asd, Demo Password: asd</b>
 
 <h2>Description</h2>
 A MERN project creating a collaborative task management website where users can create projects, invite collaborators, and manage tasks. Implemented a responsive user interface using React allowing users to create tasks, assign them to others, set due dates, and track their progress. Developed a RESTful API using Node.js and Express to handle core functionalities and secure encryption of user data.
