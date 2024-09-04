@@ -28,7 +28,7 @@ Register user if neededk:  <br/>
 <br />
 <br />
 Login: <br/>
-<img src="https://github.com/RansikaP/project-manager/blob/main/walkthrough%20images/homepage.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/RansikaP/project-manager/blob/main/walkthrough%20images/homepage.JPG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 View tasks for project:  <br/>
