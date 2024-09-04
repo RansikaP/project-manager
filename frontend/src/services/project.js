@@ -66,13 +66,14 @@ const leaveProject = async (collab, projId) => {
     }
 }
 
-const createProject = async (title, desc) => {
+const createProject = async (title, desc, key) => {
     const username = cookies.get('user')
     const requestUrl = baseUrl
     const newProjectObj = {
         name: title,
         creator: username,
         description: desc,
+        key: key,
     }
     try {
         const response = await axios.post(requestUrl, newProjectObj)

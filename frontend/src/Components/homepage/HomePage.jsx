@@ -13,6 +13,7 @@ function Home(props) {
 
     const [projectTitle, setProjectTitle] = useState('')
     const [projectDescription, setProjectDescription] = useState('')
+    const [newProjectKey, setNewProjectKey] = useState('')
 
     const [urgentTasks, setUrgentTasks] = useState([])
     const [upcomingTasks, setUpcomingTasks] = useState([])
@@ -52,11 +53,20 @@ function Home(props) {
         setProjectDescription(event.target.value)
     }
 
+    const handleNewProjectKey = (event) => {
+        setNewProjectKey(event.target.value)
+    }
+
     const handleProjectSubmit = async (event) => {
         event.preventDefault()
-        await projectService.createProject(projectTitle, projectDescription)
+        await projectService.createProject(
+            projectTitle,
+            projectDescription,
+            newProjectKey
+        )
         setProjectTitle('')
         setProjectDescription('')
+        setNewProjectKey('')
         reloadSidebar()
     }
 
@@ -144,6 +154,14 @@ function Home(props) {
                                 type="text"
                                 value={projectDescription}
                                 onChange={handleDescription}
+                            />
+                        </label>
+                        <label>
+                            Key:
+                            <input
+                                type="text"
+                                value={newProjectKey}
+                                onChange={handleNewProjectKey}
                             />
                         </label>
                         <input
