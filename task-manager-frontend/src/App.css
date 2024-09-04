@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.App{
+  width: 100vw;
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+  height: 100vh;
+}
+
+body{
+  margin:0;
+  padding:0;
+}
+
+.Sidebar{
+  height: 100%;
+  width:250px;
+  background-color: #2f4050;
+}
+
+.SidebarList{
+  height:100%;
+  width:100%;
+  padding: 0;
+}
+
+.SidebarList.row{
+  width: 100%;
+  height:50px;
+  border: 1px solid black;
+  list-style-type: none;
+  margin:0%;
+  display: flex;
+  flex-direction: row;
+  color:white;
+  justify-content: center;
+  align-items: center;
+
+}
+.Label {
+  color: rgb(207, 99, 207); 
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.HomePageButton{
+    color:white
+}
+
+.MyProject {
+  color: aqua; 
+}
+
+.CollabProject {
+  color: rgb(184, 247, 184);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    font-family: "Poppins", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-something: grayscale;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./assets/Mountains.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

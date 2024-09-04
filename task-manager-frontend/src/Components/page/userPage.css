@@ -1,0 +1,17 @@
+.PageContainer {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .sidebar {
+    flex: 0 0 250px; /* Fixed width for the sidebar */
+    background-color: #f4f4f4; /* Example background color for sidebar */
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .content {
+    flex: 1; /* Take the remaining space */
+    padding: 20px;
+    overflow-y: auto; /* Add scroll if content overflows */
+  }

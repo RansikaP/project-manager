@@ -1,0 +1,10 @@
+.tasktable{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border-collapse:separate;
+}
+
+.tasktable th{
+ 
+    border-radius: 8px;
+}
