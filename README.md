@@ -1,6 +1,6 @@
 <h1>Project Manager</h1>
 
-<b> [Demo](https://task-manager-frontend-p5c4.onrender.com/login) </b>  
+<b> <a href="https://task-manager-frontend-p5c4.onrender.com/login" target="_blank">Demo</a> </b>  
 Demo User: asd  
 Demo Password: asd
 
